@@ -10,7 +10,7 @@ Static HTML/CSS/JS single-page portfolio. Bright Apple HIG aesthetic with subtle
 
 ## Projects
 
-6 apps (Venture Map, Coffee Shop App, Parking Ticket Fighter, AlumniUp, DreamRoom, CursiveFlow) and 3 websites (Pawche, Lexis Sapphire Financial, Jackson Tax Service contributor credit).
+7 apps (Venture Map, Coffee Shop App, Parking Ticket Fighter, AlumniUp, DreamRoom, CursiveFlow, Contract Hub) and 3 websites (Pawche, Lexis Sapphire Financial, Jackson Tax Service contributor credit).
 
 ## Deploy
 
