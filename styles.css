@@ -1,0 +1,174 @@
+/* Erisha Smith Portfolio - Bright Apple HIG aesthetic */
+
+:root {
+  --bg: #fbfbfd;
+  --bg-alt: #f5f5f7;
+  --text: #1d1d1f;
+  --text-secondary: #6e6e73;
+  --accent: #0071e3;
+  --accent-dark: #0068d1;
+  --card-bg: rgba(255, 255, 255, 0.72);
+  --card-border: rgba(0, 0, 0, 0.08);
+  --badge-bg: #e8f0fe;
+  --badge-text: #1a56db;
+  --radius: 18px;
+  --shadow: 0 4px 24px rgba(0, 0, 0, 0.06);
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+.container { max-width: 1100px; margin: 0 auto; padding: 0 24px; }
+
+/* Nav */
+.nav {
+  position: sticky; top: 0; z-index: 100;
+  background: rgba(251, 251, 253, 0.8);
+  -webkit-backdrop-filter: blur(20px) saturate(180%);
+  backdrop-filter: blur(20px) saturate(180%);
+  border-bottom: 1px solid var(--card-border);
+}
+.nav-inner {
+  max-width: 1100px; margin: 0 auto; padding: 14px 24px;
+  display: flex; justify-content: space-between; align-items: center;
+}
+.nav-brand { font-weight: 700; font-size: 18px; color: var(--text); text-decoration: none; }
+.nav-links { display: flex; gap: 24px; }
+.nav-links a { color: var(--text-secondary); text-decoration: none; font-size: 15px; }
+.nav-links a:hover { color: var(--text); }
+
+/* Hero */
+.hero {
+  padding: 100px 24px 80px;
+  text-align: center;
+  background: linear-gradient(180deg, #f0f7ff 0%, var(--bg) 100%);
+}
+.hero-content { max-width: 720px; margin: 0 auto; }
+.hero-eyebrow {
+  font-size: 14px; letter-spacing: 2px; text-transform: uppercase;
+  color: var(--text-secondary); margin-bottom: 16px;
+}
+.hero h1 { font-size: clamp(40px, 7vw, 64px); font-weight: 700; letter-spacing: -1px; }
+.hero-title { font-size: clamp(22px, 4vw, 30px); font-weight: 600; color: var(--accent); margin: 8px 0 20px; }
+.hero-bio { font-size: 18px; color: var(--text-secondary); max-width: 600px; margin: 0 auto 32px; }
+.hero-buttons { display: flex; gap: 16px; justify-content: center; flex-wrap: wrap; }
+.hero-tagline { margin-top: 28px; font-size: 16px; font-style: italic; color: var(--text-secondary); }
+
+.btn {
+  display: inline-block; padding: 12px 32px; border-radius: 999px;
+  font-size: 16px; font-weight: 600; text-decoration: none;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+.btn:hover { transform: translateY(-1px); }
+.btn-primary { background: var(--accent); color: #fff; box-shadow: 0 4px 14px rgba(0, 113, 227, 0.3); }
+.btn-primary:hover { background: var(--accent-dark); }
+.btn-secondary {
+  background: var(--card-bg);
+  -webkit-backdrop-filter: blur(20px) saturate(180%);
+  backdrop-filter: blur(20px) saturate(180%);
+  color: var(--accent); border: 1px solid var(--card-border);
+  box-shadow: var(--shadow);
+}
+
+/* Sections */
+.section { padding: 80px 0; }
+.section-alt { background: var(--bg-alt); }
+.section-title { font-size: clamp(30px, 5vw, 42px); font-weight: 700; letter-spacing: -0.5px; text-align: center; }
+.section-subtitle { text-align: center; color: var(--text-secondary); font-size: 18px; margin: 12px 0 48px; }
+
+/* Cards */
+.cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 28px; }
+.card {
+  background: var(--card-bg);
+  -webkit-backdrop-filter: blur(20px) saturate(180%);
+  backdrop-filter: blur(20px) saturate(180%);
+  border: 1px solid var(--card-border);
+  border-radius: var(--radius);
+  padding: 28px;
+  box-shadow: var(--shadow);
+  display: flex; flex-direction: column; gap: 12px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.card:hover { transform: translateY(-4px); box-shadow: 0 12px 32px rgba(0, 0, 0, 0.1); }
+.card-badge {
+  align-self: flex-start;
+  background: var(--badge-bg); color: var(--badge-text);
+  font-size: 12px; font-weight: 700; letter-spacing: 1px; text-transform: uppercase;
+  padding: 4px 12px; border-radius: 999px;
+}
+.card h3 { font-size: 24px; font-weight: 700; letter-spacing: -0.3px; }
+.card-oneline { font-size: 16px; color: var(--text-secondary); }
+.card-meta { display: flex; flex-direction: column; gap: 8px; font-size: 14.5px; color: var(--text-secondary); }
+.card-meta strong { color: var(--text); font-weight: 600; }
+.card-links { display: flex; gap: 16px; margin-top: auto; padding-top: 8px; }
+.card-links a { color: var(--accent); font-weight: 600; font-size: 15px; text-decoration: none; }
+.card-links a:hover { text-decoration: underline; }
+
+/* Process */
+.process-steps {
+  display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 16px; margin-bottom: 32px;
+}
+.step {
+  background: var(--card-bg);
+  -webkit-backdrop-filter: blur(20px) saturate(180%);
+  backdrop-filter: blur(20px) saturate(180%);
+  border: 1px solid var(--card-border);
+  border-radius: var(--radius);
+  padding: 20px; text-align: center;
+  display: flex; flex-direction: column; gap: 8px; align-items: center;
+  box-shadow: var(--shadow);
+}
+.step-num {
+  width: 40px; height: 40px; border-radius: 50%;
+  background: var(--accent); color: #fff;
+  display: flex; align-items: center; justify-content: center;
+  font-weight: 700; font-size: 16px;
+}
+.step-name { font-weight: 600; font-size: 15px; }
+.process-note { text-align: center; color: var(--text-secondary); font-size: 16px; max-width: 640px; margin: 0 auto; }
+
+/* Skills */
+.skills-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; }
+.skill-group {
+  background: var(--card-bg);
+  -webkit-backdrop-filter: blur(20px) saturate(180%);
+  backdrop-filter: blur(20px) saturate(180%);
+  border: 1px solid var(--card-border);
+  border-radius: var(--radius);
+  padding: 24px; box-shadow: var(--shadow);
+}
+.skill-group h3 { font-size: 18px; margin-bottom: 8px; color: var(--accent); }
+.skill-group p { font-size: 15px; color: var(--text-secondary); }
+
+/* Contact */
+.contact-container { text-align: center; }
+
+/* Footer */
+.footer {
+  padding: 40px 0; text-align: center;
+  border-top: 1px solid var(--card-border);
+  color: var(--text-secondary); font-size: 14px;
+}
+
+/* Reveal animation */
+.reveal { opacity: 0; transform: translateY(24px); transition: opacity 0.6s ease, transform 0.6s ease; }
+.reveal.visible { opacity: 1; transform: none; }
+
+/* Responsive */
+@media (max-width: 640px) {
+  .nav-links { gap: 14px; }
+  .nav-links a { font-size: 13px; }
+  .hero { padding: 64px 20px 56px; }
+  .section { padding: 56px 0; }
+  .cards { grid-template-columns: 1fr; }
+}

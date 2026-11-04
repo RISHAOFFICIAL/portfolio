@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Erisha Smith - iOS Developer</title>
+<meta name="description" content="Erisha Smith is an iOS developer in Detroit building apps with Swift, SwiftUI, and AI-assisted development. Apple Developer Academy Foundations graduate.">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<nav class="nav">
+  <div class="nav-inner">
+    <a href="#" class="nav-brand">Erisha Smith</a>
+    <div class="nav-links">
+      <a href="#apps">Apps</a>
+      <a href="#websites">Websites</a>
+      <a href="#process">Process</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="hero-content">
+    <p class="hero-eyebrow">Detroit, Michigan</p>
+    <h1>Erisha Smith</h1>
+    <p class="hero-title">iOS Developer</p>
+    <p class="hero-bio">I build iOS apps with Swift and SwiftUI, using AI as a pair programmer to ship faster. Apple Developer Academy Foundations graduate. Founder of Lexis Sapphire Studio.</p>
+    <div class="hero-buttons">
+      <a href="https://github.com/RISHAOFFICIAL" class="btn btn-primary" target="_blank" rel="noopener">GitHub</a>
+      <a href="https://linkedin.com/in/erishasmith" class="btn btn-secondary" target="_blank" rel="noopener">LinkedIn</a>
+    </div>
+    <p class="hero-tagline">Detroit problems, Swift solutions.</p>
+  </div>
+</header>
+
+<main>
+
+<section id="apps" class="section">
+  <div class="container">
+    <h2 class="section-title">Apps</h2>
+    <p class="section-subtitle">Six apps, from Apple Foundations prototypes to live products.</p>
+
+    <div class="cards">
+
+      <article class="card">
+        <div class="card-badge">iOS</div>
+        <h3>Venture Map</h3>
+        <p class="card-oneline">An iOS app helping a Detroit community leader log the neighborhoods he has served and visualize his reach on a map.</p>
+        <div class="card-meta">
+          <span><strong>Platform:</strong> iOS native, Swift/SwiftUI</span>
+          <span><strong>Backend:</strong> Prototype stage. Data model centers on neighborhood interaction logs rendered as map pins and regions.</span>
+          <span><strong>UX/UI:</strong> Built through the Foundations design process. Core insight from user research: Ron thinks in neighborhoods, not contacts. Deliberately scoped to one thing done well. The map is not a feature. The map is the app.</span>
+          <span><strong>Status:</strong> Presented October 2026. Team: Fantastic 3.0 (Erisha, Ashton, Chris).</span>
+        </div>
+        <div class="card-links">
+          <a href="https://github.com/RISHAOFFICIAL/venture-map" target="_blank" rel="noopener">GitHub</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-badge">iOS</div>
+        <h3>Coffee Shop App</h3>
+        <p class="card-oneline">A Detroit coffee shop directory plus personal visited log, so you never forget the name of a shop you loved months later.</p>
+        <div class="card-meta">
+          <span><strong>Platform:</strong> iOS native, Swift/SwiftUI, iOS 26 minimum</span>
+          <span><strong>Backend:</strong> Supabase (PostgreSQL) for the Detroit shop directory. SwiftData on-device first for shops, visits, and lists, with offline support. Sign in with Apple for sync. Core Location region monitoring for auto check-in prompts. MapKit for the Discover map.</span>
+          <span><strong>UX/UI:</strong> Full playbook process, Stages 0 to 6 approved. Espresso and caramel design system, Liquid Glass on tab bar and surfaces, 19 hi-fi screens. Key flows: Discover map, 5-second check-in prompt, Add Memory sheet, Visited retrieval, Want To Go list. Apple HIG throughout.</span>
+          <span><strong>Status:</strong> In development. 8-sprint build plan approved, Sprint 0 in progress.</span>
+        </div>
+        <div class="card-links">
+          <a href="https://github.com/RISHAOFFICIAL/coffee-shop-app" target="_blank" rel="noopener">GitHub</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-badge">Web + iOS</div>
+        <h3>Parking Ticket Fighter</h3>
+        <p class="card-oneline">Build a contest packet for a wrongful Detroit parking ticket: case check, evidence checklist, auto-drafted statement, deadlines, and reminders.</p>
+        <div class="card-meta">
+          <span><strong>Platform:</strong> Private fullstack web app (working v1). Native iOS SwiftUI build in progress.</span>
+          <span><strong>Backend:</strong> Server actions with a data model covering tickets, evidence items, statements, reminders, and fleet tracking. Deadline engine computes discount and contest deadlines from issue date.</span>
+          <span><strong>UX/UI:</strong> Forest, ivory, and brass palette. Liquid Glass on buttons, floating tab bar, and control panels. Toolbar per Apple HIG. Plain-language copy throughout with honest case-strength verdicts.</span>
+          <span><strong>Status:</strong> Web v1 working (private). Native iOS scaffold started. Free during launch.</span>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-badge">Web + iOS</div>
+        <h3>AlumniUp</h3>
+        <p class="card-oneline">Crowdfunding for Detroit school needs where every donor can publicly track their gift from donation to verified classroom use.</p>
+        <div class="card-meta">
+          <span><strong>Platform:</strong> Web app (Next.js 14 App Router), plus native SwiftUI iOS app</span>
+          <span><strong>Backend:</strong> Supabase (PostgreSQL, Auth, Storage, Row-Level Security). Stripe for donations. The public money trail is a formal state machine: LIVE to FUNDED to SENT to RECEIVED to USE VERIFIED. Fiscal sponsor: Childs Play Foundation, Inc. 501(c)(3).</span>
+          <span><strong>UX/UI:</strong> Full Stages 0 to 8 process with founder approval gates. Heritage Premium direction: navy, gold, cream. 16 lo-fi wireframes and 16 hi-fi screens generated from one source of truth. Apple's charitable-giving rules handled honestly.</span>
+          <span><strong>Status:</strong> Feature-complete on sample data. Full case study written.</span>
+        </div>
+        <div class="card-links">
+          <a href="https://alumniupdetroit.org" target="_blank" rel="noopener">Live Site</a>
+          <a href="https://github.com/RISHAOFFICIAL/AlumniUp" target="_blank" rel="noopener">GitHub</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-badge">iOS + Web</div>
+        <h3>DreamRoom</h3>
+        <p class="card-oneline">A social vision-board platform for building boards together in real time, with a cinematic Golden Reveal sequence.</p>
+        <div class="card-meta">
+          <span><strong>Platform:</strong> Native iOS (SwiftUI) plus web guest portal plus admin dashboard. Monorepo.</span>
+          <span><strong>Backend:</strong> Node.js plus Express plus Socket.io real-time infrastructure. Redis for horizontal scaling. SQLite for persistent Witnessing history. Web portal lets participants join via browser. iOS connects via SocketService.</span>
+          <span><strong>UX/UI:</strong> Tactile board canvas, The Archive for clipping inspiration, cinematic Golden Reveal sequence. Golden Hour luxury UI plus soundscape. Thematic Dream Kits with ambient soundscapes.</span>
+          <span><strong>Status:</strong> Built June 2026.</span>
+        </div>
+        <div class="card-links">
+          <a href="https://github.com/RISHAOFFICIAL/DreamRoom" target="_blank" rel="noopener">GitHub</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-badge">Web</div>
+        <h3>CursiveFlow</h3>
+        <p class="card-oneline">A Duolingo-style cursive literacy app. Learn to read and write cursive by decoding the U.S. Constitution and founding documents.</p>
+        <div class="card-meta">
+          <span><strong>Platform:</strong> Web app (Next.js, TypeScript, Tailwind)</span>
+          <span><strong>Backend:</strong> Next.js fullstack. TensorFlow.js for handwriting recognition. Supabase for data. Stripe for the Pro tier.</span>
+          <span><strong>UX/UI:</strong> Gamified literacy concept with Duolingo-style progression applied to cursive. Free tier covers the full alphabet and the Preamble. Pro unlocks all founding documents, the Decoder game, and classroom tools.</span>
+          <span><strong>Status:</strong> Built June 2026.</span>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<section id="websites" class="section section-alt">
+  <div class="container">
+    <h2 class="section-title">Websites</h2>
+    <p class="section-subtitle">Live stores and service sites.</p>
+
+    <div class="cards">
+
+      <article class="card">
+        <div class="card-badge">Shopify</div>
+        <h3>Pawche</h3>
+        <p class="card-oneline">A high-end pet supply store. Collars, beds, grooming, and seasonal collections.</p>
+        <div class="card-meta">
+          <span><strong>Platform:</strong> Shopify with custom theme</span>
+          <span><strong>Backend:</strong> Shopify for catalog, cart, checkout, and orders. Zendrop fulfillment for core products. Klaviyo for email. Loox as the review system.</span>
+          <span><strong>UX/UI:</strong> High-end store aesthetic. Bright lifestyle photography. Seasonal collections with custom hero art.</span>
+          <span><strong>Status:</strong> Live.</span>
+        </div>
+        <div class="card-links">
+          <a href="https://pawche.store" target="_blank" rel="noopener">Live Site</a>
+          <a href="https://github.com/RISHAOFFICIAL/pawche" target="_blank" rel="noopener">GitHub</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-badge">Static</div>
+        <h3>Lexis Sapphire Financial</h3>
+        <p class="card-oneline">Bookkeeping service site for small businesses. Monthly plans, cleanup packages, and online ordering.</p>
+        <div class="card-meta">
+          <span><strong>Platform:</strong> Static HTML site</span>
+          <span><strong>Backend:</strong> Stripe payment links for 8 service products. Fiverr gigs as the order channel.</span>
+          <span><strong>UX/UI:</strong> Teal and gold brand. Card-based pricing grid, FAQ section, Order Now buttons wired to Stripe.</span>
+          <span><strong>Status:</strong> Live.</span>
+        </div>
+        <div class="card-links">
+          <a href="https://lexissapphirefinancial.com" target="_blank" rel="noopener">Live Site</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-badge">Contributor</div>
+        <h3>Jackson Tax Service</h3>
+        <p class="card-oneline">Website for Austin Jackson's AJ Taxes in Ferndale. I contributed the bookkeeping partner tab.</p>
+        <div class="card-meta">
+          <span><strong>Platform:</strong> Web app on Render</span>
+          <span><strong>Backend:</strong> TypeScript web app. The bookkeeping tab offers three tiers with QuickBooks onboarding by email.</span>
+          <span><strong>UX/UI:</strong> My contribution is the partner tab content: three bookkeeping tiers with clear pricing and onboarding flow.</span>
+          <span><strong>Status:</strong> Live. Note: this is Austin Jackson's business. I am the bookkeeping partner contributor, not the owner.</span>
+        </div>
+        <div class="card-links">
+          <a href="https://jackson-tax-service.onrender.com" target="_blank" rel="noopener">Live Site</a>
+          <a href="https://github.com/RISHAOFFICIAL/Jackson_tax_service" target="_blank" rel="noopener">GitHub</a>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<section id="process" class="section">
+  <div class="container">
+    <h2 class="section-title">My Process</h2>
+    <p class="section-subtitle">Every app goes through the same structured build, with approval gates at each stage.</p>
+    <div class="process-steps">
+      <div class="step"><span class="step-num">0</span><span class="step-name">Idea and Validation</span></div>
+      <div class="step"><span class="step-num">1</span><span class="step-name">Persona</span></div>
+      <div class="step"><span class="step-num">2</span><span class="step-name">User Stories</span></div>
+      <div class="step"><span class="step-num">3</span><span class="step-name">User Flow</span></div>
+      <div class="step"><span class="step-num">4</span><span class="step-name">Lo-Fi Wireframes</span></div>
+      <div class="step"><span class="step-num">5</span><span class="step-name">Hi-Fi Design</span></div>
+      <div class="step"><span class="step-num">6</span><span class="step-name">Build Sprints</span></div>
+      <div class="step"><span class="step-num">7</span><span class="step-name">Native and Release</span></div>
+    </div>
+    <p class="process-note">Apple apps follow Apple's Human Interface Guidelines, with Liquid Glass treatments from the hi-fi stage onward.</p>
+  </div>
+</section>
+
+<section id="skills" class="section section-alt">
+  <div class="container">
+    <h2 class="section-title">Skills</h2>
+    <div class="skills-grid">
+      <div class="skill-group">
+        <h3>iOS</h3>
+        <p>Swift, SwiftUI, SwiftData, MapKit, Core Location, Sign in with Apple, Xcode</p>
+      </div>
+      <div class="skill-group">
+        <h3>Web</h3>
+        <p>TypeScript, Next.js, React, Tailwind CSS, Node.js, Express, Socket.io</p>
+      </div>
+      <div class="skill-group">
+        <h3>Backend and Data</h3>
+        <p>Supabase, PostgreSQL, SQLite, Redis, Stripe, REST APIs</p>
+      </div>
+      <div class="skill-group">
+        <h3>Design</h3>
+        <p>Apple Human Interface Guidelines, Liquid Glass, Figma, Wireframing, Prototyping</p>
+      </div>
+      <div class="skill-group">
+        <h3>AI-Assisted Building</h3>
+        <p>AI pair programming, rapid prototyping, prompt-driven development</p>
+      </div>
+      <div class="skill-group">
+        <h3>Certifications</h3>
+        <p>Apple Developer Academy Foundations Program (2026), WCCCD Mobile Application Certificate (2021), WCCCD Networking+ Certificate (2020)</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="section">
+  <div class="container contact-container">
+    <h2 class="section-title">Get In Touch</h2>
+    <p class="section-subtitle">I am looking for remote software engineering roles where I can keep building and learning.</p>
+    <div class="hero-buttons">
+      <a href="https://github.com/RISHAOFFICIAL" class="btn btn-primary" target="_blank" rel="noopener">GitHub</a>
+      <a href="https://linkedin.com/in/erishasmith" class="btn btn-secondary" target="_blank" rel="noopener">LinkedIn</a>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="footer">
+  <div class="container">
+    <p>Erisha Smith, iOS Developer, Detroit MI. Owner and founder of Lexis Sapphire Studio.</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
