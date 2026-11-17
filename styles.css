@@ -113,6 +113,26 @@ body {
 .card-links a { color: var(--accent); font-weight: 600; font-size: 15px; text-decoration: none; }
 .card-links a:hover { text-decoration: underline; }
 
+/* Screenshot gallery inside a card */
+.screenshots {
+  display: flex; gap: 12px;
+  overflow-x: auto;
+  padding: 4px 2px 12px;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+}
+.screenshots figure { flex: 0 0 auto; width: 150px; scroll-snap-align: start; }
+.screenshots img {
+  width: 100%; height: auto; display: block;
+  border-radius: 14px;
+  border: 1px solid var(--card-border);
+  box-shadow: var(--shadow);
+}
+.screenshots figcaption {
+  font-size: 12px; color: var(--text-secondary);
+  text-align: center; margin-top: 6px;
+}
+
 /* Process */
 .process-steps {
   display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
