@@ -4,6 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Erisha Smith - iOS Developer Portfolio</title>
+<link rel="icon" type="image/png" href="ls2-monogram.png">
 <meta name="description" content="Portfolio of iOS apps and websites built with Swift and SwiftUI.">
 <meta property="og:title" content="Erisha Smith - iOS Developer Portfolio">
 <meta property="og:description" content="Portfolio of iOS apps and websites built with Swift and SwiftUI.">
@@ -14,13 +15,24 @@
 <meta name="twitter:title" content="Erisha Smith - iOS Developer Portfolio">
 <meta name="twitter:description" content="Portfolio of iOS apps and websites built with Swift and SwiftUI.">
 <meta name="twitter:image" content="https://rishaofficial.github.io/portfolio/og-image.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+<div class="seasonal-banner">
+  <span class="seasonal-leaf">&#127809;</span>
+  <p>Happy Thanksgiving from Risha Alexis! Grateful for every app, every client, and every Detroit business I get to build for.</p>
+  <span class="seasonal-leaf">&#127809;</span>
+</div>
 
 <nav class="nav">
   <div class="nav-inner">
-    <a href="#" class="nav-brand">Risha Alexis</a>
+    <a href="#" class="logo" aria-label="Risha Alexis home">
+      <img class="logo-mark" src="ls2-monogram.png" alt="" width="26" height="28">
+      <span>Risha Alexis</span>
+    </a>
     <div class="nav-links">
       <a href="#apps">Apps</a>
       <a href="#websites">Websites</a>
@@ -33,6 +45,7 @@
 
 <header class="hero">
   <div class="hero-content">
+    <img class="hero-photo" src="risha-founder.jpg" alt="Risha Alexis, iOS developer in Detroit">
     <p class="hero-eyebrow">Detroit, Michigan</p>
     <h1>Risha Alexis</h1>
     <p class="hero-title">iOS Developer</p>
@@ -61,8 +74,8 @@
         <div class="card-meta">
           <span><strong>Platform:</strong> iOS native, Swift/SwiftUI, iOS 17 minimum</span>
           <span><strong>Backend:</strong> SwiftData on-device storage for accounts, transactions, and cards. Local-first sample data.</span>
-          <span><strong>UX/UI:</strong> Luxury dark theme, midnight black with brushed gold accents, serif display type for balances. Member Value Dashboard with gold progress rings: $847 saved in 2026 across fees avoided, higher savings rate, and lower auto loan rate. Face ID login with PIN fallback, transfers, transactions, card lock, bill pay, mobile check deposit, and loan payments. Built through the full playbook process with competitor research across Chase, Amex, Apple Card, and Navy Federal.</span>
-          <span><strong>Status:</strong> Built November 2026.</span>
+          <span><strong>UX/UI:</strong> Luxury dark theme, midnight black with brushed gold accents, serif display type for balances. The Member Value Dashboard shows members exactly what membership saves them versus big banks, with gold progress rings tracking $847 saved in 2026. Face ID login with PIN fallback, transfers, bill pay, mobile check deposit, and loan payments.</span>
+          <span><strong>Status:</strong> Built November 2026. Now on TestFlight.</span>
         </div>
         <div class="screenshots">
           <figure><img src="images/banking-app/home-dashboard.jpg" alt="Banking App Member Value dashboard showing $847 saved in 2026" loading="lazy"><figcaption>Member Value dashboard</figcaption></figure>
@@ -107,8 +120,8 @@
         <div class="card-meta">
           <span><strong>Platform:</strong> iOS native, Swift/SwiftUI, iOS 26 minimum</span>
           <span><strong>Backend:</strong> Supabase (PostgreSQL) for the Detroit shop directory. SwiftData on-device first for shops, visits, and lists, with offline support. Sign in with Apple for sync. Core Location region monitoring for auto check-in prompts. MapKit for the Discover map.</span>
-          <span><strong>UX/UI:</strong> Full playbook process, Stages 0 to 6 approved. Espresso and caramel design system, Liquid Glass on tab bar and surfaces, 19 hi-fi screens. Key flows: Discover map, 5-second check-in prompt, Add Memory sheet, Visited retrieval, Want To Go list. Apple HIG throughout.</span>
-          <span><strong>Status:</strong> In development. 8-sprint build plan approved, Sprint 0 in progress.</span>
+          <span><strong>UX/UI:</strong> Full playbook process, Stages 0 to 6 approved. Espresso and caramel design system, Liquid Glass on tab bar and surfaces, 19 hi-fi screens. Key flows: Discover map, 5-second check-in prompt, Add Memory sheet, Visited retrieval, Want To Go list.</span>
+          <span><strong>Status:</strong> In development. Sprints 1-3 complete: SwiftData models, design system, tab shell, Supabase client, Discover map, search, filters, and check-in with region monitoring.</span>
         </div>
         <div class="card-links">
           <a href="https://github.com/RISHAOFFICIAL/coffee-shop-app" target="_blank" rel="noopener">GitHub</a>
@@ -138,7 +151,7 @@
         <div class="card-meta">
           <span><strong>Platform:</strong> Web app (Next.js 14 App Router), plus native SwiftUI iOS app</span>
           <span><strong>Backend:</strong> Supabase (PostgreSQL, Auth, Storage, Row-Level Security). Stripe for donations. The public money trail is a formal state machine: LIVE to FUNDED to SENT to RECEIVED to USE VERIFIED. Fiscal sponsor: Childs Play Foundation, Inc. 501(c)(3).</span>
-          <span><strong>UX/UI:</strong> Full Stages 0 to 8 process with founder approval gates. Heritage Premium direction: navy, gold, cream. 16 lo-fi wireframes and 16 hi-fi screens generated from one source of truth. Apple's charitable-giving rules handled honestly.</span>
+          <span><strong>UX/UI:</strong> Heritage Premium direction: navy, gold, cream. 16 lo-fi wireframes and 16 hi-fi screens from one source of truth. Apple's charitable-giving rules handled honestly.</span>
           <span><strong>Status:</strong> Feature-complete on sample data. Full case study written.</span>
         </div>
         <div class="card-links">
@@ -172,8 +185,8 @@
         </div>
         <div class="card-meta">
           <span><strong>Platform:</strong> Fullstack web app (live)</span>
-          <span><strong>Backend:</strong> Next.js with Supabase (PostgreSQL, Auth, RLS per-business isolation) and Vercel hosting. Data model covering businesses, contracts, opportunities, registrations, certifications, suppliers, proposal workbenches, saved searches, alerts, and ads. Daily scheduled scans of SAM.gov, Detroit Bonfire, and MITN.</span>
-          <span><strong>UX/UI:</strong> Warm ivory, deep forest, and brass luxury theme with Liquid Glass on buttons, tab bars, and cards. Guide chatbot with Business Foundations lessons (EIN, UEI and SAM, business credit tiers). 13-badge Bid Ready Journey rewards system. Talk to update: voice and typed commands on every contract card with a confirm step.</span>
+          <span><strong>Backend:</strong> Next.js with Supabase (PostgreSQL, Auth, RLS per-business isolation) and Vercel hosting. Daily scheduled scans of SAM.gov, Detroit Bonfire, and MITN.</span>
+          <span><strong>UX/UI:</strong> Warm ivory, deep forest, and brass luxury theme with Liquid Glass on buttons, tab bars, and cards. Guide chatbot with Business Foundations lessons. 13-badge Bid Ready Journey rewards system. Talk to update: voice and typed commands on every contract card with a confirm step.</span>
           <span><strong>Status:</strong> Live Nov 7, 2026. Free for now, Pro $24/mo planned. Real sign in with per-business data isolation.</span>
         </div>
       </article>
@@ -302,8 +315,16 @@
 <footer class="footer">
   <div class="container">
     <p>Risha Alexis, iOS Developer, Detroit MI. Owner and founder of Lexis Sapphire Studio.</p>
+    <p class="seasonal-footer">Happy Thanksgiving! Grateful for our clients, our community, and the city we call home.</p>
   </div>
 </footer>
+
+<!-- Lightbox for screenshots -->
+<div class="lightbox" id="lightbox" role="dialog" aria-label="Enlarged screenshot">
+  <button class="lightbox-close" id="lightbox-close" aria-label="Close">&times;</button>
+  <img id="lightbox-img" src="" alt="">
+  <div class="lightbox-hint">Tap anywhere to close</div>
+</div>
 
 <script src="script.js"></script>
 </body>
