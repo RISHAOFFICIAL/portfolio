@@ -76,7 +76,7 @@
     },
     {
       id: "easter",
-      emoji: "\u1F423",
+      emoji: "\uD83D\uDC23",
       falling: ["\uD83C\uDF38", "\uD83C\uDF37", "\uD83D\uDC23"],
       banner: "Happy Easter from Risha Alexis! Fresh ideas, fresh starts, fresh apps.",
       footer: "Happy Easter! Wishing you a bright and hopeful spring.",
@@ -89,7 +89,7 @@
     },
     {
       id: "mothers-day",
-      emoji: "\u1F490",
+      emoji: "\uD83D\uDC90",
       falling: ["\uD83C\uDF38", "\uD83D\uDC90", "\uD83C\uDF37"],
       banner: "Happy Mother's Day from Risha Alexis! To every mom building a business and a family at the same time.",
       footer: "Happy Mother's Day! Honoring the moms who make it all happen.",
@@ -102,7 +102,7 @@
     },
     {
       id: "memorial-day",
-      emoji: "\u1F1FA\u1F1F8",
+      emoji: "\uD83C\uDDFA\uD83C\uDDF8",
       falling: ["\u2B50", "\u2764\uFE0F", "\uD83D\uDC99"],
       banner: "This Memorial Day, Risha Alexis honors those who served and gave everything.",
       footer: "Remembering and honoring our fallen heroes this Memorial Day.",
@@ -115,7 +115,7 @@
     },
     {
       id: "fathers-day",
-      emoji: "\u1F4AA",
+      emoji: "\uD83D\uDCAA",
       falling: ["\uD83D\uDC99", "\u2B50", "\uD83D\uDCAA"],
       banner: "Happy Father's Day from Risha Alexis! To every dad building a legacy for his family.",
       footer: "Happy Father's Day! Honoring the dads who build, provide, and inspire.",
@@ -140,7 +140,7 @@
     },
     {
       id: "july-4th",
-      emoji: "\u1F386",
+      emoji: "\uD83C\uDF86",
       falling: ["\uD83C\uDF86", "\u2B50", "\uD83C\uDF1F"],
       banner: "Happy Independence Day from Risha Alexis! Built free, built bold, built in Detroit.",
       footer: "Happy 4th of July! Celebrating freedom and the American dream.",
@@ -152,7 +152,7 @@
     },
     {
       id: "labor-day",
-      emoji: "\u1F4AA",
+      emoji: "\uD83D\uDCAA",
       falling: ["\u2B50", "\uD83D\uDCAA", "\uD83D\uDC4F"],
       banner: "Happy Labor Day from Risha Alexis! Honoring every worker, builder, and dreamer.",
       footer: "Happy Labor Day! Rest well, you earned it.",
@@ -165,7 +165,7 @@
     },
     {
       id: "halloween",
-      emoji: "\u1F383",
+      emoji: "\uD83C\uDF83",
       falling: ["\uD83C\uDF83", "\uD83D\uDC7B", "\uD83E\uDD87"],
       banner: "Happy Halloween from Risha Alexis! No tricks, just treats. An app so good it is scary.",
       footer: "Happy Halloween! Have a spooky, safe, and sweet night.",
@@ -177,7 +177,7 @@
     },
     {
       id: "veterans-day",
-      emoji: "\u1F396\uFE0F",
+      emoji: "\uD83C\uDF96\uFE0F",
       falling: ["\u2B50", "\u2764\uFE0F", "\uD83D\uDC99"],
       banner: "Happy Veterans Day from Risha Alexis! Thank you to every veteran who served.",
       footer: "Thank you, veterans, for your service and sacrifice.",
@@ -189,7 +189,7 @@
     },
     {
       id: "thanksgiving",
-      emoji: "\u1F342",
+      emoji: "\uD83C\uDF42",
       falling: ["\uD83C\uDF42", "\uD83C\uDF41", "\uD83C\uDF43"],
       banner: "Happy Thanksgiving from Risha Alexis! Grateful for every app, every client, and every Detroit business I get to build for.",
       footer: "Happy Thanksgiving! Grateful for our clients, our community, and the city we call home.",
@@ -202,7 +202,7 @@
     },
     {
       id: "christmas",
-      emoji: "\u1F384",
+      emoji: "\uD83C\uDF84",
       falling: ["\u2744\uFE0F", "\u26C4", "\uD83C\uDF84"],
       banner: "Merry Christmas from Risha Alexis! Wishing you joy, peace, and a brand new app under the tree.",
       footer: "Merry Christmas! Wishing you warmth, joy, and a wonderful new year.",
